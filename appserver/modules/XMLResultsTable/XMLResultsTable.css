@@ -1,0 +1,61 @@
+.XMLResultsTable {
+    clear:both;
+    padding:0px;
+    _padding:0px 5px;
+    
+}
+
+.XMLResultsTable .empty_results {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.XMLResultsTable .simpleResultsTableWrapper {
+	overflow-x: auto;
+    overflow-y: hidden;
+    padding: 0px 10px;
+    _padding: 0px;
+    _width:100%;
+    *position:relative;
+}
+/*SPL-49659 - fix IE9 hover bug*/
+.ie9 .XMLResultsTable .simpleResultsTableWrapper {
+    min-height:0;
+    margin-bottom:auto;
+}
+.XMLResultsTable .simpleTableOptions {
+    height:32px;
+    line-height: 32px;
+    text-align:right; 
+    padding:0px 10px;  
+}
+.XMLResultsTable table.simpleResultsTable {
+    white-space:nowrap;   
+}
+.XMLResultsTable table.simpleResultsTable td.pos,
+.XMLResultsTable table.simpleResultsTable th.pos {
+    padding: 3px 10px 5px 5px;
+    width: 15px;
+}
+.XMLResultsTableMenuTemplate {
+    display: none;
+}
+.XMLResultsTable splMenu ul {
+    margin-top: -2px
+}
+.XMLResultsTable table.splTable tr td.selected,
+.XMLResultsTable table.splTable tr th.selected,
+.XMLResultsTable table.splTable tr.selected td,
+.XMLResultsTable table.splTable tr div.selected {
+    background-color:#DCD28B;
+    color:#fff;
+}
+.XMLResultsTable table.enableMouseover tr td.d {
+    color:#1a7996;
+    cursor:pointer;
+}
+
+.XMLResultsTable table th a {
+    cursor:pointer;
+}
+
