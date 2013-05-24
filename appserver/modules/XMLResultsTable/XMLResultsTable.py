@@ -29,7 +29,7 @@ RAW_FIELD = '_raw'
 
 # define wrapper for rendering multi-value fields
 MULTI_VALUE_WRAPPER = '<div class="mv">%s</div>'
-XML_VALUE_WRAPPER = '<div class="xml">%s</div>'
+XML_VALUE_WRAPPER = '<div class="ppxml">%s</div>'
 
 # define hard limit for displaying multi-value fields
 MAX_MULTI_VALUE_COUNT = 50
