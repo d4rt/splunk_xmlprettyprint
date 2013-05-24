@@ -281,6 +281,7 @@ class XMLResultsTable(module.ModuleHandler):
                     # added this for xml values
                     elif field=='xml':
                         xmlValueStr = [XML_VALUE_WRAPPER % x for x in renderedValues]
+                        output.append("".join(xmlValueStr))
                     # however for single values the extra div is unwanted.
                     else:
                         output.append("".join(renderedValues))
